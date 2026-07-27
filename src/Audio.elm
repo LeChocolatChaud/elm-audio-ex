@@ -1,7 +1,7 @@
 module Audio exposing
     ( elementWithAudio, documentWithAudio, applicationWithAudio, Model, Msg, AudioData, Ports
     , AudioCmd, loadAudio, LoadError(..), Source, cmdMap, cmdBatch, cmdNone
-    , Audio, audio, group, silence, length, audioWithConfig, audioDefaultConfig, PlayAudioConfig, LoopConfig
+    , Audio(..), audio, group, silence, length, audioWithConfig, audioDefaultConfig, PlayAudioConfig, LoopConfig
     , scaleVolume, scaleVolumeAt, offsetBy
     , lamderaFrontendWithAudio, migrateModel, migrateMsg
     )
